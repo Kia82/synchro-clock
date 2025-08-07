@@ -1,30 +1,15 @@
-# Welcome to your Lovable project
+# Welcome to SynchroClock
 
-## Project info
+A fully-featured clock app (timer, alarm, stopwatch, world clock) enhanced with a collaborative feature—Alarm Parties, where a host sets a group alarm that triggers at the same time for all participants.
 
-**URL**: https://lovable.dev/projects/83bac8e6-fc67-4ac4-841f-110b17f7f5cf
 
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/83bac8e6-fc67-4ac4-841f-110b17f7f5cf) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Want to Develop?
 
 Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone https://github.com/Kia82/SynchroClock.git
+git clone https://github.com/Kia82/synchro-clock.git
 
 # Step 2: Navigate to the project directory.
 cd synchro-clock
