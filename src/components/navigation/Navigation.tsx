@@ -1,6 +1,6 @@
-import { Clock, Timer, Play, AlarmClock } from 'lucide-react';
+import { Globe, Timer, Play, AlarmClock } from 'lucide-react';
 import { cn } from '@/lib/utils';
-
+import './Navigation.css'
 interface NavigationProps {
   activeTab: string;
   onTabChange: (tab: string) => void;
@@ -8,14 +8,14 @@ interface NavigationProps {
 
 const Navigation = ({ activeTab, onTabChange }: NavigationProps) => {
   const tabs = [
-    { id: 'world-clock', icon: Clock, label: 'World Clock' },
+    { id: 'world-clock', icon: Globe, label: 'World Clock' },
     { id: 'timer', icon: Timer, label: 'Timer' },
     { id: 'stopwatch', icon: Play, label: 'Stopwatch' },
     { id: 'alarm', icon: AlarmClock, label: 'Alarm' },
   ];
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 bg-card border-t border-border p-4">
+    <nav className="nav-bar">
       <div className="flex justify-center max-w-md mx-auto">
         <div className="flex space-x-2 bg-secondary/50 p-2 rounded-2xl backdrop-blur-sm">
           {tabs.map(({ id, icon: Icon, label }) => (
@@ -38,5 +38,4 @@ const Navigation = ({ activeTab, onTabChange }: NavigationProps) => {
     </nav>
   );
 };
-
-export default Navigation;
+export {Navigation}

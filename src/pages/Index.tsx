@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import Navigation from '@/components/Navigation';
-import WorldClock from '@/components/WorldClock';
-import Timer from '@/components/Timer';
-import Stopwatch from '@/components/Stopwatch';
-import Alarm from '@/components/Alarm';
+import {Navigation} from '@/components/navigation/Navigation';
+import WorldClock from '@/components/worldclock/WorldClock';
+import Timer from '@/components/timer/Timer';
+import Stopwatch from '@/components/stopwatch/Stopwatch';
+import Alarm from '@/components/alarm/Alarm';
 
 const Index = () => {
   const [activeTab, setActiveTab] = useState('world-clock');
